@@ -14,4 +14,7 @@ All the images are downloaded from Google image search. These should be used for
 
 PREREQUISITES:
 easy_install selenium
+
 (brew install selenium-server-standalone)
+
+pip install selenium, pyvirtualdisplay
