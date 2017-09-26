@@ -18,3 +18,13 @@ easy_install selenium
 (brew install selenium-server-standalone)
 
 pip install selenium, pyvirtualdisplay
+
+**The Seven Basic Steps of Selenium Tests**
+There are seven basic steps in creating a Selenium test script, which apply to any test case and any application under test (AUT):
+1. Create a WebDriver instance.
+2. Navigate to a Web page.
+3. Locate an HTML element on the Web page.
+4. Perform an action on an HTML element.
+5. Anticipate the browser response to the action.
+6. Run tests and record test results using a test framework.
+7. Conclude the test.
