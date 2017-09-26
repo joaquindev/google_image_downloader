@@ -22,7 +22,13 @@ pip install selenium, pyvirtualdisplay
 **The Seven Basic Steps of Selenium Tests** (Source: https://wiki.saucelabs.com/display/DOCS/Getting+Started+with+Selenium+for+Automated+Website+Testing#GettingStartedwithSeleniumforAutomatedWebsiteTesting-IntroducingSelenium) 
 There are seven basic steps in creating a Selenium test script, which apply to any test case and any application under test (AUT):
 1. Create a WebDriver instance.
+```
+driver = webdriver.Firefox()
+```
 2. Navigate to a Web page.
+```
+	driver.get(url)
+```
 3. Locate an HTML element on the Web page.
 4. Perform an action on an HTML element.
 5. Anticipate the browser response to the action.
