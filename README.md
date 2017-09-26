@@ -11,3 +11,7 @@ where:
 `<number of images>` min(`<number of images>`, total google results) will be downloaded.
 
 All the images are downloaded from Google image search. These should be used for educational purposes only. Copyright is owned by the respective websites.
+
+PREREQUISITES:
+easy_install selenium
+(brew install selenium-server-standalone)
